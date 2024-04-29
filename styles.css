@@ -1,0 +1,83 @@
+.pageHeader, .sec1 {
+    color: black;
+    background-color:rgb(221, 180, 188);
+}
+.pageHeader{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.deckHeaders {
+    display: flex;
+    gap: 16px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#signUpButton {
+    color: white;
+    background-color: rgb(224, 176, 18);
+    padding: 4px 12px;
+    border-radius: 5px;
+    display: flex;
+    width: 80px;
+    justify-content: center;
+}
+
+.madHome {
+    height: 200px;
+    width: auto;
+    padding-bottom: 16px;
+}
+.sec2 {
+    background-color: whitesmoke;
+}
+
+.featureHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 202, 174);
+}
+
+.featuredDecks {
+    background-color: rgb(174, 202, 174);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.someQuote { 
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    flex-direction: column;
+}
+
+.sec4 {
+    
+    
+}
+
+.signup {
+    background-color: rgb(8, 36, 116);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 24px 48px;
+    border-radius: 5px;
+    
+}
+
+.theFooter {
+    color: white;
+    background-color: slategray;
+}
