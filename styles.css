@@ -1,6 +1,8 @@
+
 .pageHeader, .sec1 {
     color: black;
-    background-color:rgb(221, 180, 188);
+    background-color:rgb(174, 202, 174);
+    
 }
 .pageHeader{
     display: flex;
@@ -11,73 +13,123 @@
 .deckHeaders {
     display: flex;
     gap: 16px;
+    font-size: 18px;
+}
+
+#toLimit {
+    font-size: 48px;
+    font-weight:900; 
+    padding-left: 24px;  
+    margin-bottom: -8px;
+}
+
+#trustMe {
+    font-size: 18px;
+    padding-left: 24px;
 }
 
 .sec1 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3em;
+    
 }
 
 #signUpButton {
     color: white;
-    background-color: rgb(224, 176, 18);
-    padding: 4px 12px;
+    background-color: #3882F6;
+    margin-left: 24px;
+    margin-bottom: 2em;
     border-radius: 5px;
     display: flex;
     width: 80px;
     justify-content: center;
+    padding: 4px;
+
+    
 }
+
 
 .madHome {
     height: 200px;
     width: auto;
     padding-bottom: 16px;
-}
-.sec2 {
-    background-color: whitesmoke;
+    margin-right: 10px;
 }
 
 .featureHeader {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(174, 202, 174);
+    background-color: white;
+    font-size: 24px;
+    font-weight: 900px;
 }
 
 .featuredDecks {
-    background-color: rgb(174, 202, 174);
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 16px;
+    margin: 24px;
+    text-align: center;
 }
 
 .someQuote { 
-    background-color:beige;
+    background-color: beige;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding-top: 3em;
+    padding-bottom: 3em;
     flex-direction: column;
 }
 
 .sec4 {
-    
-    
+    margin: 24px;
 }
 
 .signup {
-    background-color: rgb(8, 36, 116);
+    background-color: #3882F6;
     color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 24px 48px;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
 }
 
-.theFooter {
-    color: white;
-    background-color: slategray;
+#signMeUp {
+    border: white solid 2px;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+.myFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 100%;
+        background-color: darkslategray;
+
+}
+p.copyright {
+    color: #fff;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+#myQuote {
+    font-size: 36px;
+    font-weight: 300px;
+}
+#quoteCredit {
+    font-size: 18px;
+    position: relative;
+    left: 5em;
 }
