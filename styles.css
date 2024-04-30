@@ -99,13 +99,15 @@
     justify-content: space-evenly;
     align-items: center;
     margin: 24px 48px;
-    border-radius: 5px;   
+    border-radius: 5px; 
+    padding: 16px;  
 }
 
 #signMeUp {
     border: white solid 2px;
     border-radius: 5px;
-    padding: 4px 8px;
+    padding: 4px 10px;
+    box-sizing: border-box
 }
 .myFooter {
         display: flex;
@@ -127,6 +129,7 @@ p.copyright {
 #myQuote {
     font-size: 36px;
     font-weight: 300px;
+    margin-bottom: -10px;
 }
 #quoteCredit {
     font-size: 18px;
